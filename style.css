@@ -1,6 +1,7 @@
 
 
 
+
 h1{
 text-align: center;
 color: rgb(4, 202, 209)
@@ -15,7 +16,7 @@ color: rgb(4, 202, 209)
 #title1 {
     position: absolute;
     background-color: #b39d9d;
-    width: 400px;
+    width: 500px;
     top: 200px;
     left: 100px;
     padding: 0px;
@@ -29,12 +30,46 @@ color: rgb(4, 202, 209)
     
 }
 
-.introduction{
 
-}
 
 .Find{
-    height:500px;
+    position: absolute;
+    left:800px;
+    top:200px;
+    height:700px;
     width:600px;
-    left:20px;
+    
+}
+
+.introduction{
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    left: 10px;
+    top: 15px;
+    color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+#toptitle{
+    position: absolute;
+    background-color: #6b5050;
+    width: 500px;
+    top: 200px;
+    left: 100px;
+    padding: 0px;
+    height: 50px;
+    margin: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    z-index: 1000;
+    color: white;
+}
+
+.topword{
+    position: absolute;
+    text-align: center;
+    font-size: 29px;
+    left: 199px;
+    top: 2px;
 }
