@@ -12,3 +12,23 @@ color: rgb(4, 202, 209)
     width: 100%
 }
 
+#title1 {
+    position: absolute;
+    background-color: #b39d9d;
+    width: 400px;
+    top: 200px;
+    left: 100px;
+    padding: 0px;
+    height: 500px;
+    margin: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 999;
+    
+}
+
+.introduction{
+
+}
